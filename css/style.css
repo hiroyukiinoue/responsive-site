@@ -1,0 +1,172 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+
+html
+{
+    font-size: 62.5%;
+}
+body
+{
+    font-family: '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #4c4c4c;
+    background-color: #efecd9;
+
+ margin:0; padding:0;
+
+}
+
+
+
+
+
+
+
+
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center;
+}
+
+
+
+
+.box {
+  background-image:
+  url("../images/pexels-photo-63695-min1.jpeg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+#skills {
+  background-color: #efecd9;   /* タイプのバック色 */
+}
+#skills .container {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+#skills h1 {
+  color: #fdfcf6;
+  margin-bottom: 60px;
+}
+#skills .skill-box {
+  -webkit-flex: 1;
+  flex: 1;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #708090;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#skills i {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 5px;
+  padding-top: 15px;
+  background-color: #00000;
+  font-size: 4.5rem;
+  color: #FFF;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+#skills h1 {
+  margin-bottom: 10px;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+button.button8 a { color:#fff; text-decoration:none }
+
+#skills p {
+   color: #ffffff;
+}   
+
+@media (min-width: 1025px) {
+  #skills .container {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #skills .skill-box {
+    margin: 0 10px;
+  }
+}
+
+
+
+
+button.button8 {
+ text-align: center;
+   
+font-size: 1.4em;  /* 文字サイズを1.4emに指定 */
+
+font-weight: bold;   /* 文字の太さをboldに指定 */
+
+padding: 10px 30px;   /* 縦方向に10px、* 横方向に30pxの余白を指定 */
+
+color: #fff;    /* 文字色を白色に指定 */
+
+border-style: none;   /* ボーダーをなくす */
+
+box-shadow: 2px 2px 3px 1px #666;
+-moz-box-shadow: 2px 2px 3px 1px #666;
+-webkit-box-shadow: 2px 2px 3px 1px #666;
+/* ボタンの影の指定 * 影の横幅を2px * 縦長を2px * ぼかしを3px * 広がりを1px * 色を#666（グレー）に指定 */
+
+text-shadow: 1px 1px 2px #000;
+/* テキストの影の指定 * 影の横幅を1px * 縦長を1px * ぼかしを2px * 色を#000（黒）に指定 */
+
+
+background: -moz-linear-gradient(bottom, #595757, #248 50%, #36d); 
+background: -webkit-gradient(linear, left bottom, left top, from(#36d), color-stop(0.5, #248), to(#36d));
+/* グラデーションの指定 */
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+/* 角丸の指定 */
+
+button.button8:hover {
+ opacity: 0.8;
+}
+
+a:visited { color:#ffffff;}
+
+.button { text-align: center;}
+
+
+
+.profile p, #skills .container,  #contact { width:95%; margin:0 auto}
+.profile p { margin:20px auto 25px}
+
+
+
+
+footer
+{
+    padding: 10px 0;
+
+    text-align: center;
+
+    color: #000000;
+}
